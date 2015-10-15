@@ -1,4 +1,4 @@
-require 'mattock/version'
+require 'slag/version'
 
 # Contains all of the modules and classes relevant to Mattock.
 module Slag
