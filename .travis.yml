@@ -2,9 +2,6 @@ language: ruby
 rvm:
 - 2.2.3
 before_install: gem install bundler -v 1.10.6
-addons:
-  code_climate:
-    repo_token: 5f86057bf9d3249c673d0b070143bdd4686033243f10bdda86ac3c5224980845
 deploy:
   provider: rubygems
   api_key:
@@ -13,3 +10,6 @@ deploy:
   on:
     tags: true
     repo: Nunnery/slag
+env:
+  global:
+    secure: jO2azDLeKuLr2WqJqOIakiv92aw8dFert1ygcJtc9H89TKyjjL/GVrHkDBRAZT7W4uUDMGX2Ki5YMCfYDdxIFxKFyxtpvrSuA4+/L1LLA44txuP+ADq3xuIPFrKdDCXfwGmCBnxKTJ45+PwBynv9NSDrkPoaR6uYjDzst2F6LypbPXH84b8v4db8QEeN53yZOA7S4otPUjnniNDAnmUqsej8pfn3B6oQOK0U8K5f6VC0vic+L/HMGKPDyG8P0U3YcNTiVGOUcua/SyHmMW3hFDDwpr1bAtgwY7DXa/yWaolCkggBj/H2nJzCI9tQ/5gnOJYuv7Wpze+NY3b0tvqy22S9L7VOHHc0komxK2MQ1Zw4LfieeXjMmV5zTgiP4vXJxHO2blJiyvJVg3V+owbblqMmcyTZTBJKR5vtbjL8odJ+6M+IvGZHCVNFAMsmN+dZ6NdH9WSBGxsaPLoE4nARpKk1K8yJyfmFyH/3zs76dbBRzK082fv1yCitEQdCVyz2lU/e3QlqOxMoDqFmvsfPqsd/u3SGBPPJ/8xLfl/EgvmM/X4F5PtuFrHv6Pnhgdvo++7RQXJvrN8PnteD2PXC//6M9oa4VnrxK+X+z0PNUxNg0nfFkoJ4vwTh1VjfktufsZ0OMWNBrL3bWwZHoxgr19YRlfdeZWrfH3RQDvbNgpY=
