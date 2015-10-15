@@ -1,9 +1,6 @@
 require 'slag'
-require 'simplecov'
-require 'codeclimate-test-reporter'
-SimpleCov.add_filter 'vendor'
-SimpleCov.formatters = []
-SimpleCov.start CodeClimate::TestReporter.configuration.profile
+require 'coveralls'
+Coveralls.wear!
 
 Dir[File.dirname(__FILE__) + '/support/**/*.rb'].each { |f| require f }
 
