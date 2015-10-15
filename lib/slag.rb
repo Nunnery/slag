@@ -1,6 +1,7 @@
 require 'slag/version'
 
 # Contains all of the modules and classes relevant to Mattock.
+# @author Richard Harrah
 module Slag
   # The root path for Mattock source code files
   # @return [String] path to source code files
