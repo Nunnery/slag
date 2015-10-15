@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mattock/version'
+require 'slag/version'
 
 Gem::Specification.new do |gem|
-  gem.name = 'mattock'
+  gem.name = 'slag'
   gem.version = Slag::VERSION
 
   gem.summary = 'A tool for generating new Ruby gems.'
@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.licenses = ['MIT']
   gem.authors = ['Richard Harrah']
   gem.email = 'topplethenunnery@gmail.com'
-  gem.homepage = 'https://nunnery.github.io/mattock'
+  gem.homepage = 'https://nunnery.github.io/slag'
 
   glob = lambda { |patterns| gem.files & Dir[*patterns] }
 
