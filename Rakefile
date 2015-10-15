@@ -33,8 +33,12 @@ RSpec::Core::RakeTask.new
 
 Rake::Task[:spec].enhance [:clean]
 
-task :test    => :spec
-task :default => :spec
+require 'simplecov'
+require 'codeclimate-test-reporter'
+task :test    => :spec do
+  CodeClimate::TestReporter::Formatter.new.format(SimpleCov.result)
+end
+task :default => :test
 
 require 'yard'
 YARD::Rake::YardocTask.new
