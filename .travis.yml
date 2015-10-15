@@ -2,3 +2,14 @@ language: ruby
 rvm:
 - 2.2.3
 before_install: gem install bundler -v 1.10.6
+addons:
+  code_climate:
+    repo_token: 5f86057bf9d3249c673d0b070143bdd4686033243f10bdda86ac3c5224980845
+deploy:
+  provider: rubygems
+  api_key:
+    secure: SM9oD0VZ1073MC3tJqErg1qcO8dMXDOH21V58zyN1ekexAamw8wAcLsj3QEeOyBKdlD9S8vvCKrR7mwlNXGkwo5oA4tpOBk5cKO6COJMDegtHEU6Jyevt5uKcbXmdfQmIrRdxZMmU/zibNvPVvnvOWHhYjL2fM3cQNHRFKV6nkuPweU8gwm5s8j/b1FCUGG7Vv+nriE+SVEZGPw0PqZSLA3xzc9V4FMeQqupdmz4ZGa7/xoB8KUS/A/dHPy1ej5L3mSBulI6jhVUPF9ecf9D2rrsEUep87GCpQ9r1ZxaZb+g2ywRzoAbCZ5P5TOv+m9y17n0l7Aq+QLIg+bo5sb9km+UzZRFh59X5GUnt2cHAwxmD0fTBO1qvQ7HYzSS3i96uYFo+ARSvIIqSqqC6/eswpimwluF5+FKMFaQTZSVIxYIcCrrHJpk0hTSJIvASOWhfEA/6Qczmxc2V1ZedrxixDwrwOud6J0HoKJIZErha3cQ67ixB22CWSlPyMTicw2xM1VLJ2FMrlrShSYYY0QHuO5qRdVWTlAq9W/kgeZhZcAl2/CkCLwLEYQZY/P9wC/OyJWMaF+gzND4j2743P0tJ0Gn9iCPR4AuKi9JkFe4pG6GwrdbwP77dMHnb8p4EpDskkREE8H2UydBGHuQpSrslIuDJK2t5AWh1PkqcCTkPpg=
+  gem: slag
+  on:
+    tags: true
+    repo: Nunnery/slag
