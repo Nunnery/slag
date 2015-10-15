@@ -1,4 +1,4 @@
-RSpec.describe Mattock do
+RSpec.describe Slag do
   # Make sure that Mattock::VERSION exists
   describe '::VERSION' do
     context 'when it exists' do

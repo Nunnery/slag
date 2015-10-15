@@ -1,13 +1,13 @@
-# Mattock
+# Slag
 
-Mattock is a tool for generating new Ruby gems. It is in heavy development and isn't stable yet.
+Slag is a tool for generating new Ruby gems. It is in heavy development and isn't stable yet.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mattock'
+gem 'slag'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mattock
+    $ gem install slag
 
 ## Usage
 
@@ -28,7 +28,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-Bug reports and pull requests are welcome on [GitHub](https://github.com/Nunnery/mattock). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on [GitHub](https://github.com/Nunnery/slag). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 

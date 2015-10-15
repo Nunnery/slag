@@ -5,7 +5,7 @@ require 'mattock/version'
 
 Gem::Specification.new do |gem|
   gem.name = 'mattock'
-  gem.version = Mattock::VERSION
+  gem.version = Slag::VERSION
 
   gem.summary = 'A tool for generating new Ruby gems.'
   gem.description = 'A tool for generating new Ruby gems, under heavy development.'

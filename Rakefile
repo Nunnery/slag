@@ -44,4 +44,4 @@ require 'bundler/gem_tasks'
 
 Rake::Task[:build].enhance [:clean]
 
-require 'mattock'
+require 'slag'
