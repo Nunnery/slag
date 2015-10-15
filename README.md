@@ -1,7 +1,7 @@
 # Slag
 
 [![Code Climate](https://img.shields.io/codeclimate/github/Nunnery/slag.svg?style=flat-square)](https://codeclimate.com/github/Nunnery/slag)
-[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/Nunnery/slag.svg?style=flat-square)](https://codeclimate.com/github/Nunnery/slag/coverage)
+[![Test Coverage](https://img.shields.io/coveralls/Nunnery/slag.svg?style=flat-square)](https://coveralls.io/github/Nunnery/slag)
 [![Build Status](https://img.shields.io/travis/Nunnery/slag.svg?style=flat-square)](https://travis-ci.org/Nunnery/slag)
 [![Dependency Status](https://img.shields.io/gemnasium/Nunnery/slag.svg?style=flat-square)](https://gemnasium.com/Nunnery/slag)
 [![Gem Version](https://img.shields.io/gem/v/slag.svg?style=flat-square)](https://rubygems.org/gems/slag)
