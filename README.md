@@ -1,5 +1,12 @@
 # Slag
 
+[![Code Climate](https://img.shields.io/codeclimate/github/Nunnery/slag.svg?style=flat-square)](https://codeclimate.com/github/Nunnery/slag)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/Nunnery/slag.svg?style=flat-square)](https://codeclimate.com/github/Nunnery/slag/coverage)
+[![Build Status](https://img.shields.io/travis/Nunnery/slag.svg?style=flat-square)](https://travis-ci.org/Nunnery/slag)
+[![Dependency Status](https://img.shields.io/gemnasium/Nunnery/slag.svg?style=flat-square)](https://gemnasium.com/Nunnery/slag)
+[![Gem Version](https://img.shields.io/gem/v/slag.svg?style=flat-square)](https://rubygems.org/gems/slag)
+[![Docs Coverage](http://inch-ci.org/github/Nunnery/slag.svg?branch=master&style=flat-square)](http://inch-ci.org/github/Nunnery/slag)
+
 Slag is a tool for generating new Ruby gems. It is in heavy development and isn't stable yet.
 
 ## Installation
