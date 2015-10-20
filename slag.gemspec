@@ -23,6 +23,8 @@ Gem::Specification.new do |gem|
   gem.test_files = glob['{spec/{**/}*_spec.rb']
   gem.extra_rdoc_files = glob['*.{txt,rdoc}']
 
+  gem.add_dependency 'pastel', '~> 0.5'
+
   gem.add_development_dependency 'pry', '~> 0.10'
   gem.add_development_dependency 'bundler', '~> 1.10'
   gem.add_development_dependency 'rake', '~> 10.0'
