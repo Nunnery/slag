@@ -4,5 +4,6 @@
 def __p(path) File.join(Slag::ROOT, 'slag', *path.split('/')); end
 
 module Slag
-
+  autoload :Console, __p('console')
+  autoload :Printing, __p('printing')
 end
