@@ -5,10 +5,15 @@ module Slag
   # Inspired by rubygems-tasks' printing.rb
   # @author Richard Harrah
   module Printing
+
+    private
+
+    PASTEL = Pastel.new
+
     # String to prepend to any status messages
     # @return [String] prefix for status messages
     STATUS_PREFIX = if $stdout.tty?
-                      "#{pastel.bright_green('>>>', pastel.clear(''))}"
+                      "#{PASTEL.bright_green('>>>', PASTEL.clear(''))}"
                     else
                       '>>>'
                     end
@@ -16,14 +21,14 @@ module Slag
     # String to prepend to any debug messages
     # @return [String] prefix for debug messages
     DEBUG_PREFIX = if $stdout.tty?
-                     "#{pastel.bright_yellow('>>>', pastel.clear(''))}"
+                     "#{PASTEL.bright_yellow('>>>', PASTEL.clear(''))}"
                    else
                      '>>>'
                    end
     # String to prepend to any error messages
     # @return [String] prefix for error messages
     ERROR_PREFIX = if $stderr.tty?
-                    "#{pastel.bright_red('>>>', pastel.clear(''))}"
+                    "#{PASTEL.bright_red('>>>', PASTEL.clear(''))}"
                    else
                      '>>>'
                    end
@@ -31,7 +36,7 @@ module Slag
     # String to prepend to any intake messages
     # @return [String] prefix for intake messages
     INTAKE_PREFIX = if $stdout.tty?
-                      "#{pastel.bright_blue('<<<', pastel.clear(''))}"
+                      "#{PASTEL.bright_blue('<<<', PASTEL.clear(''))}"
                     else
                       '<<<'
                     end
